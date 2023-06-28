@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Tareas</title>
+  <style>
+    /* Estilo básico de la lista */
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    /* Estilo del checkbox */
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lista de Tareas</h1>
+  
+  <ul>
+    <li>
+      <label>
+        <input type="checkbox">
+        Tarea 1: Descripción de la tarea 1
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox">
+        Tarea 2: Descripción de la tarea 2
+      </label>
+    </li>
+    <li>
+      <label>
+        <input type="checkbox">
+        Tarea 3: Descripción de la tarea 3
+      </label>
+    </li>
+  </ul>
+</body>
+</html>
