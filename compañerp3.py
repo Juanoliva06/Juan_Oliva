@@ -1,38 +1,30 @@
-import random
-
-def obtener_palabra_con_letra(letra):
-    # Lista de palabras
-    palabras = {
-        "a": ["amigo", "avión", "árbol"],
-        "b": ["barco", "bolsa", "bicicleta"],
-        "c": ["camisa", "casa", "coche"],
-        "d": ["delfín", "dado", "diente"],
-        # Agrega más letras y palabras aquí
-    }
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cuestionario</title>
+</head>
+<body>
+  <h1>Cuestionario</h1>
+  
+  <form>
+    <h2>Pregunta 1:</h2>
+    <p>¿Cuál es la capital de Francia?</p>
+    <input type="radio" name="pregunta1" value="Paris"> París<br>
+    <input type="radio" name="pregunta1" value="Londres"> Londres<br>
+    <input type="radio" name="pregunta1" value="Roma"> Roma<br>
     
-    # Convertir la letra a minúscula
-    letra = letra.lower()
+    <h2>Pregunta 2:</h2>
+    <p>¿Cuál es el océano más grande?</p>
+    <input type="radio" name="pregunta2" value="Pacífico"> Pacífico<br>
+    <input type="radio" name="pregunta2" value="Atlántico"> Atlántico<br>
+    <input type="radio" name="pregunta2" value="Índico"> Índico<br>
     
-    # Verificar si la letra ingresada está en el abecedario
-    if letra not in palabras.keys():
-        print("La letra ingresada no es válida.")
-        return
+    <h2>Pregunta 3:</h2>
+    <p>¿Cuál es la fórmula química del agua?</p>
+    <input type="text" name="pregunta3" placeholder="Escribe la respuesta">
     
-    # Obtener una palabra aleatoria con la letra ingresada
-    palabra = random.choice(palabras[letra])
-    return palabra
-
-# Solicitar al usuario que ingrese una letra
-letra = input("Ingresa una letra: ")
-
-# Obtener una palabra con la letra ingresada
-palabra_con_letra = obtener_palabra_con_letra(letra)
-
-# Mostrar la palabra obtenida
-if palabra_con_letra:
-    print("Palabra:", palabra_con_letra)
-    
-    #Karen_Hernandez
-    #Palabras_Aleatorias
-    #IEM_ESCUELA_NORMAL_PASTO
-    #11-1
+    <br><br>
+    <input type="submit" value="Enviar respuestas">
+  </form>
+</body>
+</html>
