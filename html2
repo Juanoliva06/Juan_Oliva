@@ -26,19 +26,19 @@
     <li>
       <label>
         <input type="checkbox">
-        Tarea 1: Descripción de la tarea 1
+        Tarea 1: Realizar Actividades De Oppi 2
       </label>
     </li>
     <li>
       <label>
         <input type="checkbox">
-        Tarea 2: Descripción de la tarea 2
+        Tarea 2: Hacer las guias de Matematicas
       </label>
     </li>
     <li>
       <label>
         <input type="checkbox">
-        Tarea 3: Descripción de la tarea 3
+        Tarea 3: Entregar Las Actividades De Informatica
       </label>
     </li>
   </ul>
